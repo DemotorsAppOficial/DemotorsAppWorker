@@ -1,0 +1,21 @@
+{
+    "@odata.context": "http://localhost:5488/odata/$metadata#folders/$entity",
+    "@odata.editLink": "http://localhost:5488/odata/folders('N6Kq8gM89YEp1jMm')",
+    "@odata.id": "http://localhost:5488/odata/folders('N6Kq8gM89YEp1jMm')",
+    "name": "Reportes detalles de los equipos",
+    "creationDate": {
+        "$$date": 1728357693470
+    },
+    "modificationDate": {
+        "$$date": 1728357693470
+    },
+    "__entitySet": "folders",
+    "__name": "Reportes equipos del cliente",
+    "__shortid": "gkiNuP8",
+    "__folder": {
+        "shortid": "fk9-JrB"
+    },
+    "shortid": "YJ82nV9",
+    "_id": "PiwANEN00w4gyyWz",
+    "$entitySet": "folders"
+}

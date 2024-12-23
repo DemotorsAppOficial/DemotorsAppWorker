@@ -1,0 +1,20 @@
+{
+    "name": "lista-ordenes-servicios-main",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "dJrjKQQ"
+    },
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1728449041246
+    },
+    "modificationDate": {
+        "$$date": 1734925385573
+    },
+    "shortid": "N5Bos0i",
+    "_id": "SiCjvQvciJngubbP",
+    "$entitySet": "templates"
+}

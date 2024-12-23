@@ -1,0 +1,122 @@
+2024-12-22T08:03:49.337Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=lc2hbo2wy2humnz, id=lc2hbo2wy2humnz
+2024-12-22T08:03:49.337Z - error: Rendering request 1 finished with error in 528 ms rootId=lc2hbo2wy2humnz, id=lc2hbo2wy2humnz
+2024-12-22T08:03:49.339Z - error: Error during processing request at http://localhost:5488/api/report
+2024-12-22T08:18:04.659Z - error: Error when processing render request 11
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=rfyyj7jupfz9cae, id=rfyyj7jupfz9cae
+2024-12-22T08:18:04.659Z - error: Rendering request 11 finished with error in 42 ms rootId=rfyyj7jupfz9cae, id=rfyyj7jupfz9cae
+2024-12-22T08:18:39.759Z - error: Error when processing render request 12
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=i6y65ny650qn0ge, id=i6y65ny650qn0ge
+2024-12-22T08:18:39.759Z - error: Rendering request 12 finished with error in 37 ms rootId=i6y65ny650qn0ge, id=i6y65ny650qn0ge
+2024-12-23T03:16:32.246Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=i6ohkneaglklhnd, id=i6ohkneaglklhnd
+2024-12-23T03:16:32.246Z - error: Rendering request 1 finished with error in 529 ms rootId=i6ohkneaglklhnd, id=i6ohkneaglklhnd
+2024-12-23T03:16:32.248Z - error: Error during processing request at http://localhost:5488/api/report
+2024-12-23T03:20:32.941Z - error: Error when processing render request 6
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=mqyvolhastkcrrd, id=mqyvolhastkcrrd
+2024-12-23T03:20:32.941Z - error: Rendering request 6 finished with error in 54 ms rootId=mqyvolhastkcrrd, id=mqyvolhastkcrrd

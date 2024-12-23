@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css">
+        <style>
+            {{asset "styles.css" "utf8"}}
+        </style>
+    </head>
+    <body>
+        <div class="listado-box">
+                <table class="table-header" cellpadding="0" cellspacing="0">
+                    <tr class="top">
+                        <td colspan="2">
+                            <table>
+                                <tr>
+                                    <td class="title">
+                                        <img src="{{asset "demotors_logo.png" "dataURI"}}" style="width:25%; max-width:300px;" />
+                                    </td>
+                                    <td>
+                                        nombre: {{nombreEmpresa}}
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <main class="main">
+                    <table class="table striped">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Direccion</th>
+                                <th>No. Serie</th>
+                                <th>Fecha</th>
+                                <th>Trabajo Realizado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each dataEquipos}}
+                                <tr>
+                                    <td>{{CLIENT}}</td>
+                                    <td class="body-table">{{ADDRESS_CLIENT}}</td>
+                                    <td>{{NO_SERIE}}</td>
+                                    <td>{{DATE}}</td>
+                                    <td>{{WORK_DONE}}</td>
+                                </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                    <div>
+                        <h1>Imagenes: </h1>
+                        {{#each dataImagenes}}
+                            <img src={{NOMBRE_IMAGEN}} width="75%"/>
+                        {{/each}}
+                    </div>
+                </main>
+            </div>
+    </body>
+</html>

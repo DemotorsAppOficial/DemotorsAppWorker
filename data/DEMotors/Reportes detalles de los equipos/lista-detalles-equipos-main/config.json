@@ -1,0 +1,20 @@
+{
+    "name": "lista-detalles-equipos-main",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "pld6ycv"
+    },
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1728357693489
+    },
+    "modificationDate": {
+        "$$date": 1734925184471
+    },
+    "shortid": "D4ywC4-",
+    "_id": "KFvIcX1X5nGxn9FW",
+    "$entitySet": "templates"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "lista-equipo-clientes-main",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "DBKs0ieRe"
+    },
+    "shortid": "ZoCg-9kCLC",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1728357486385
+    },
+    "modificationDate": {
+        "$$date": 1734924606597
+    },
+    "_id": "yKSTICTYMuBrqMfd",
+    "$entitySet": "templates"
+}

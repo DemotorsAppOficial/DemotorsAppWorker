@@ -1,0 +1,18 @@
+{
+    "nombreEmpresa": "Demotors",
+    "dataOrdenesServicios": [
+        {
+            "NO_ORDER": "3232132",
+            "CLIENT": "Juan",
+            "ADDRESS_CLIENT": "Ejemplo",
+            "NO_SERIE": "32131231",
+            "DATE": "03/10/2024",
+            "WORK_DONE": "SI"
+        }
+    ],
+    "dataImagenes": [
+        {
+            "NOMBRE_IMAGEN": "http://localhost:3200/api/image/static/1734854753911-375562220-1734854753911.png"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+.listado-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.listado-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+.listado-box table.table-header td {
+    padding: 5px;
+    vertical-align: top;
+}
+.listado-box table.table-header tr td:nth-child(2) {
+    text-align: right;
+}
+
+.listado-box table.table-header tr.top table td {
+    padding-bottom: 20px;
+}
+.listado-box table.table-header tr.top table td.title {
+    font-size: 45px;
+    line-height: 45px;
+    color: #333;
+}
